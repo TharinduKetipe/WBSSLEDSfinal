@@ -1,0 +1,180 @@
+/* 
+    Document   : style
+    Created on : Sep 1, 2014, 9:11:51 PM
+    Author     : ayba
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.body{
+    background-color: #999999;
+    margin: 0 auto;
+    width: 75%;
+    clear: both;
+
+}
+#titlename{
+    text-align: left;
+    padding-top: 100px;
+    padding-left: 350px;
+    font-size: 60px;
+    font-weight: bold;
+    color: #44397e;
+}
+a{
+    text-decoration: none;
+    color: #44397e;
+
+
+
+}
+
+a:hover, a:active{
+    background-color: #CF5C3F;
+    color: #FFF;
+    border-radius: 5px;
+
+}
+
+
+.mainHeader img{
+    width: 30%;
+    height: auto;
+    margin: 2% 0; 
+    
+}
+p{
+    text-align: right;
+    width: 60%;
+}
+.mainHeader nav{
+   width: 100%;
+    background-color: #6691d3;
+    height: 50px;
+    border-radius: 5px;
+    overflow: hidden;
+   margin-bottom: 30px;
+}
+
+.mainHeader nav ul{
+    list-style: none;
+    margin: 0 auto;
+
+
+}
+.mainHeader nav ul li{
+    float: left;
+    display: inline;
+    font-weight: bold;
+    font-size: 15px;
+   overflow: hidden;
+   width: 20%;
+}
+
+.mainHeader nav a:link, .mainHeader nav:visited{
+    
+    display: inline-block;
+    padding: 16px 50px;
+}
+
+.mainHeader nav a:hover, .mainHeader nav a:active,
+.mainHeader nav .active a:link, .mainHeader nav .active a:visited{
+    background-color: #c41b4f;
+    border-radius: 5px;
+    color: #FFF;
+}
+
+input,#drop select {
+
+    width: 300px;
+    border: 1px solid;
+    border-color: #addef9;
+    color: #000000;
+    box-shadow: rgba(0,0,0,0.1)0px 0px 0px  ;
+    margin-top: 5px;
+    padding: 6px;
+    border-radius: 3px;
+
+
+
+}
+
+
+input:hover,input:focus{
+    border: 1px solid #C9C9C9;
+    box-shadow: rgba(0,0,0,0.1)0px 0px 0px  ;
+}
+form{
+    background-color: appworkspace;
+    border-radius: 5px;
+    
+}
+
+#lab {
+
+    text-align: right;
+    padding-left: 150px;
+    padding-right: 20px;
+    font-family: "Verdana";
+    
+
+
+}
+
+h2{
+    color: #6678ae;
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-family: "Verdana";
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+h3,h5{
+
+    width: 100%;
+    color: #6678ae;
+    float:left;
+    padding-left: 150px;
+    font-family: "Verdana";
+
+}
+
+/*
+.submit input{
+    width: 100px;
+    height: 40px;
+    background-color: #474E69;
+    float: left;
+    margin-left: 5%;
+}
+*/
+#submit{
+    margin-top: 10px;
+    border-color: #c41b4f;
+    width: 125px;
+    
+    border-radius: 2px;
+    margin-left: 42%;
+    margin-bottom: 10px;
+    background-color: #6691d3;
+    font-size: 20px;
+  
+    font-family: "verdana";
+    color: #44397e;
+    
+
+}
+#submit:hover{
+   
+    color: #FFF;
+    background-color:  #c41b4f;
+}
+
+hr{
+    width: 75%;
+    height: 2px;
+    background-color: #c41b4f;
+}
+
